@@ -1,10 +1,5 @@
 $(document).ready(function () {
 
-    // Preloader
-    $(window).on('load', function () {
-        $('.preloader').fadeOut('slow');
-    });
-
     // Carousel for Different Breakpoints
     const responsive = {
         0: {
